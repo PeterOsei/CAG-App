@@ -1,4 +1,6 @@
 // Package Imports
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
 
@@ -62,12 +64,12 @@ class HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-              icon: Icon(Icons.live_tv), title: Text('Live')),
+              icon: Icon(Icons.live_tv), label: 'Live'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.video_library), title: Text('Sermons')),
+              icon: Icon(Icons.video_library), label:'Sermons'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.event), title: Text('Events')),
-          BottomNavigationBarItem(icon: Icon(Icons.book), title: Text('Pray')),
+              icon: Icon(Icons.event), label:'Events'),
+          BottomNavigationBarItem(icon: Icon(Icons.book), label: 'Pray'),
         ],
         currentIndex: _menuIndex,
         onTap: _onTapMenu,

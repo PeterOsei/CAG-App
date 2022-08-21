@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -17,6 +19,7 @@ class PrayerSection extends StatefulWidget {
 class _PrayerSectionState extends State<PrayerSection> {
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: Create signout section to remove this
     // _auth.signOut();
 
@@ -60,7 +63,7 @@ class _PrayerSectionState extends State<PrayerSection> {
           SizedBox(
             height: 20.0,
           ),
-          FlatButton(
+          TextButton(
             child: Text('Login'),
             onPressed: () async {
               // Navigator.pushNamed(context, '/login');

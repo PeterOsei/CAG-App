@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_import, missing_return, deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:scoped_model/scoped_model.dart';

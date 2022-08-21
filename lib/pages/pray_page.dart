@@ -41,7 +41,7 @@ class PrayPage extends StatelessWidget {
     return Container(
       margin: EdgeInsets.all(8.0),
       child: SizedBox(
-        child: RaisedButton(
+        child: ElevatedButton(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[

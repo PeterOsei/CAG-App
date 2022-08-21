@@ -11,6 +11,7 @@ class EventsSection extends StatefulWidget {
 class _EventsSectionState extends State<EventsSection> {
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
 
     return ListView(
