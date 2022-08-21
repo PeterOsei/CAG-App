@@ -1,16 +1,18 @@
-# cag_app
+# Flutter app template
+The [Flutter](https://flutter.dev/) template, configured for [Gitpod](https://www.gitpod.io) to give you pre-built, ephemeral development environments in the cloud.
 
-A new Flutter project.
+## Next Steps
 
-## Getting Started
+Click the button below to start a new development environment:
 
-This project is a starting point for a Flutter application.
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-flutter)
 
-A few resources to get you started if this is your first Flutter project:
+## Get Started With Your Own Project
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+### A new project
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
+
+### An existing project
+
+Copy and commit the [`.gitpod.yml`](./.gitpod.yml) and [`.gitpod.Dockerfile`](./.gitpod.Dockerfile) to your existing project to have the same configuration of this template. To learn more, please see the [Getting Started](https://www.gitpod.io/docs/getting-started) documentation.
